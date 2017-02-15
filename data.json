@@ -1,0 +1,28 @@
+{
+    "vehicles" : [
+        {
+            "name": "Mini",
+            "image": "https://images.pexels.com/photos/35967/mini-cooper-auto-model-vehicle.jpg?w=940&h=650&auto=compress&cs=tinysrgb",
+            "thumbsUp": 100,
+            "thumbsDown": 99
+        },
+        {
+            "name": "Lamborghini Gallardo",
+            "image": "https://images.pexels.com/photos/97355/pexels-photo-97355.jpeg?w=940&h=650&auto=compress&cs=tinysrgb",
+            "thumbsUp": 1000,
+            "thumbsDown": 1
+        },
+        {
+            "name": "Mercedes AMG",
+            "image": "https://images.pexels.com/photos/112460/pexels-photo-112460.jpeg?w=940&h=650&auto=compress&cs=tinysrgb",
+            "thumbsUp": 200,
+            "thumbsDown": 1
+        },
+        {
+            "name": "Range-Rover",
+            "image": "https://images.pexels.com/photos/225841/pexels-photo-225841.jpeg?w=940&h=650&auto=compress&cs=tinysrgb",
+            "thumbsUp": 1,
+            "thumbsDown": 1000
+        }
+    ]
+}

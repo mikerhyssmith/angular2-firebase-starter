@@ -1,0 +1,17 @@
+<md-grid-list cols="4" rowHeight="400px">
+  <md-grid-tile *ngFor="let item of items | async; let i = index">
+    <md-card class="example-card">
+      <md-card-header>
+        <md-card-title>{{ item.name }}</md-card-title>
+      </md-card-header>
+      <img src="{{item.image}}" alt="Mountain View" style="width:250px;height:150px;">
+      <md-card-content>
+      </md-card-content>
+      <md-card-actions>
+        <button md-raised-button (click)="thumbsUp(i)"> <md-icon>thumb_up</md-icon>  {{ item.thumbsUp }}  </button>
+        <button md-raised-button (click)="thumbsDown(i)"> <md-icon>thumb_down</md-icon>  {{ item.thumbsDown }}  </button>
+      </md-card-actions>
+    </md-card>
+    <md-divider></md-divider>
+  </md-grid-tile>
+</md-grid-list>
